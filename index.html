@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jimmy Tour and Safari | Safari Tanzania - Serengeti &amp; Ngorongoro</title>
+
+<meta name="description" content="Jimmy Tour and Safari - Kampuni ya utalii Tanzania inayotoa safari za Serengeti, Ngorongoro Crater na maeneo mengine ya wanyamapori. Book safari yako leo.">
+<meta name="keywords" content="safari Tanzania, Serengeti tour, Ngorongoro safari, Jimmy Tour and Safari, wanyamapori Tanzania, tour operator Arusha">
+<meta property="og:title" content="Jimmy Tour and Safari">
+<meta property="og:description" content="Book safari yako Tanzania - Serengeti, Ngorongoro na zaidi">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #1A0F08;
+    color: #FFF3C4;
+  }
+  header {
+    background: linear-gradient(180deg, #F4A93B, #A63E1A);
+    text-align: center;
+    padding: 40px 20px;
+  }
+  header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #FCD675;
+    object-fit: cover;
+  }
+  header h1 {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #2A1810;
+    letter-spacing: 2px;
+  }
+  header p {
+    color: #4A2E1A;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  nav {
+    background: #0A0603;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 12px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  nav a {
+    color: #FCD675;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  section {
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  section h2 {
+    color: #F4A93B;
+    border-bottom: 2px solid #8A4A16;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  .card {
+    background: #2A1810;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+  .btn {
+    display: inline-block;
+    background: #FCD675;
+    color: #1A0F08;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #FCD675;
+    color: #FCD675;
+  }
+  form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FCD675;
+  }
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #4A2E1A;
+    background: #0A0603;
+    color: #FFF3C4;
+    font-family: inherit;
+    font-size: 15px;
+  }
+  .contact-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .contact-item a {
+    color: #FCD675;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #8A5A16;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Jimmy Tour and Safari Logo">
+  <h1>JIMMY TOUR &amp; SAFARI</h1>
+  <p>Tembelea Vivutio vya Tanzania na Sisi</p>
+</header>
+
+<nav>
+  <a href="#about">Kuhusu Sisi</a>
+  <a href="#packages">Safari Packages</a>
+  <a href="#booking">Booking</a>
+  <a href="#contact">Wasiliana Nasi</a>
+</nav>
+
+<section id="about">
+  <h2>Kuhusu Sisi</h2>
+  <p>Jimmy Tour and Safari ni kampuni ya utalii inayotoa huduma bora za safari, ziara za wanyamapori, na ukarabati wa hoteli kote Tanzania. Tunakupeleka Serengeti, Ngorongoro, na maeneo mengine ya kuvutia, kwa uzoefu wa kipekee na usalama wa hali ya juu.</p>
+</section>
+
+<section id="packages">
+  <h2>Safari Packages</h2>
+  <div class="card">
+    <h3>Serengeti Adventure</h3>
+    <p>Siku 3 za safari kuona wanyama pori Serengeti National Park, ikijumuisha kuona simba, tembo, na twiga.</p>
+  </div>
+  <div class="card">
+    <h3>Ngorongoro Crater Tour</h3>
+    <p>Ziara ya siku moja kwenye moja ya maeneo maarufu duniani ya wanyamapori, ndani ya crater yenye kina cha kipekee.</p>
+  </div>
+  <div class="card">
+    <h3>Custom Safari Package</h3>
+    <p>Tunaweza kukutengenezea ratiba maalum kulingana na muda na bajeti yako.</p>
+  </div>
+</section>
+
+<section id="booking">
+  <h2>Book Safari Yako</h2>
+
+  <form name="booking" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <input type="hidden" name="form-name" value="booking">
+
+    <label for="name">Jina Kamili</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Namba ya Simu</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="package">Chagua Package</label>
+    <select id="package" name="package" required>
+      <option value="">-- Chagua --</option>
+      <option value="Serengeti Adventure">Serengeti Adventure</option>
+      <option value="Ngorongoro Crater Tour">Ngorongoro Crater Tour</option>
+      <option value="Custom Package">Custom Package</option>
+    </select>
+
+    <label for="date">Tarehe Unayotaka Kusafiri</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="guests">Idadi ya Watu</label>
+    <input type="number" id="guests" name="guests" min="1" required>
+
+    <label for="message">Ujumbe wa Ziada (hiari)</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <div data-netlify-recaptcha="true" style="margin-top:15px;"></div>
+
+    <button type="submit" class="btn">Tuma Booking Request</button>
+  </form>
+
+  <p style="margin-top:20px;">Au wasiliana moja kwa moja:</p>
+  <a href="https://wa.me/255760844384" class="btn btn-outline">Book kupitia WhatsApp</a>
+</section>
+
+<section id="contact">
+  <h2>Wasiliana Nasi</h2>
+  <p class="contact-item">📞 Simu: <a href="tel:+255760844384">+255 760 844 384</a></p>
+  <p class="contact-item">💬 WhatsApp: <a href="https://wa.me/255760844384">+255 760 844 384</a></p>
+  <p class="contact-item">✉️ Email: <a href="mailto:francismwamkay@gmail.com">francismwamkay@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; 2026 Jimmy Tour and Safari. Haki zote zimehifadhiwa.
+</footer>
+
+</body>
+</html>
